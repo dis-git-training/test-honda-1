@@ -1,0 +1,4 @@
+DB_HOST=dis-mysql.cbkkyiwuq7ap.ap-northeast-1.rds.amazonaws.com
+DB_DB=kaihatu_db
+DB_USER=kaihatu_user
+DB_PASSWORD=kaihatu@KAIHATU

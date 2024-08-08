@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>GetAddress</title>
+  </head>
+  <body>
+      <ul>
+        <% zip.forEach((item) => { %>
+          <li>
+            <div>
+              <span><%= item.BUSHO%></span>
+              <span> : </span>
+              <!--<span> 〒 </span>  -->
+              <!-- <span><%= item.Zip %></span>  -->
+              
+              <span><%= item.ADDRESS1 %></span>
+              <span><%= item.ADDRESS2 %></span>
+            </div>
+          </li>
+        <% }) %>
+      </ul>
+
+  </body>
+</html>
